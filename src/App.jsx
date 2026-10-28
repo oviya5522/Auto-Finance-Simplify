@@ -82,7 +82,7 @@ function ProtectedRoute({ path, children }) {
 }
 
 function AuthenticatedLayout() {
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true)
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false)
   const [currentUser, setCurrentUser] = useState(() => getCurrentUser())
 
   useEffect(() => {
