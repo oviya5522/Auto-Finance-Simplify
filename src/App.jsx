@@ -102,7 +102,7 @@ function AuthenticatedLayout() {
   }
 
   return (
-    <div className={`min-h-screen bg-white transition-all duration-300 ${isSidebarCollapsed ? 'sm:pl-20' : 'sm:pl-64'}`}>
+    <div className={`min-h-screen bg-white transition-all duration-300 ${isSidebarCollapsed ? 'sm:pl-20' : 'sm:pl-[190px]'}`}>
       <Sidebar onCollapsedChange={setIsSidebarCollapsed} />
       <main className="min-h-screen flex flex-col bg-white">
         <header className="hidden items-center justify-end px-4 sm:px-6">
